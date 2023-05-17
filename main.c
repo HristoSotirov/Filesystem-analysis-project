@@ -14,7 +14,7 @@ int main() {
     while (strcmp(running, "yes") == 0 )
     {
         printf("\n");
-        printf("Enter the directory path (C:\Users\Hristo\Desktop\MyFolder): ");
+        printf("Enter the directory path (C:\\Users\\Hristo\\Desktop\\MyFolder): ");
         scanf("%s", path);
         open_dir_check(directory, path, files, &count, &total_size);
 
